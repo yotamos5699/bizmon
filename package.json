@@ -1,0 +1,17 @@
+{
+"name": "bizmon",
+"version": "0.9.0",
+"description": "task management cli tool, based on googleSheet and node js ",
+"main": "src/app.js",
+"bin":"src/app.js", 
+"scripts": {
+  "start": "node src/app.js"
+},
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "inquirer": "^9.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
